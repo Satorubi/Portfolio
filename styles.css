@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    margin: 13px;
+    padding: 14px;
+    border-radius: 10px;
+
+}
+
+section h2 {
+    text-align: center;
+}
+
+.section1 p {
+    position: relative;
+    top: 100px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px; 
+    background-color: white;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+
+}
+
+header h1{
+    position: relative;
+    left: 35px;
+}
+
+.nav-links {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 20px;
+    padding: 20px;
+    left: 90vh;
+
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px; 
+}
+
+.nav-links li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px; 
+    padding: 15px; 
+    transition: 0.5s;
+}
+
+.nav-links li a:hover {
+
+    background-color: rgba(228, 19, 19, 0.884);
+    border-radius: 5px;
+}
+
+#home{
+    height: 100vh;
+    user-select: none;
+}
+ #about{
+    height: 100vh;
+    background-color: rgb(34, 31, 31);
+    user-select: none;
+ }
+
+ .section p {
+    position: relative;
+    top: -20px;
+    left: 33px;
+    text-align: start;
+ }
+ 
+ .section .picture { 
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    left: 135vh;
+    top: -47vh;
+    overflow: hidden;
+ }
+
+ .section .picture img {
+    position: relative;
+    width: 63vh;
+    height: 80vh;
+ }
+*/
+.section1 h2, p{
+    color: #fff;
+    position: relative;
+    top: 15vh;
+ }
+
+ .section2 h2, p{
+    color: #fff;
+    position: relative;
+    top: 16vh;
+ }
+
+ #achievements{
+    height: 100vh;
+    background-color: rgb(34, 31, 31);
+ }
+ 
+
+.text-box {
+    color: #0a0808;
+    margin: 0 auto; 
+    position: absolute;
+    top: 70%; 
+    left: 35%; 
+    align-items: center;
+    transform: translate(-50%, -50%); 
+    padding-top: 100px;
+    height: 86vh;
+}
+
+.text-box h1 {
+    position: relative;
+    left: 33px;
+    font-size: 47px;
+    font-weight: 700;
+    margin-bottom: 20px; 
+    z-index: 1;
+}
+
+.text-box p {
+    position: relative;
+    color: black;
+    font-size: 17px; 
+    line-height: 1;
+}
+
+.section #about {
+    padding: 50px 0; 
+    background-color: rgb(34, 31, 31);
+    margin-top: 95vh;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: left; 
+    line-height: 1.6; 
+    color: #ffffff; 
+}
+
+.about-content p {
+    margin-bottom: 20px; 
+}
+
+.achieve-content{
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: left; 
+    line-height: 1.6; 
+    color: #ffffff; 
+}
+
+.achieve-content p {
+    margin-bottom: 20px; 
+}
+
+.section h2 {
+    font-size: 32px; 
+    margin-bottom: 20px; 
+    color: #ffffff; 
+}
+
+.section2 h2 {
+    font-size: 32px; 
+    margin-bottom: 20px; 
+    color: #ffffff; 
+}
+
